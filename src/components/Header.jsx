@@ -1,12 +1,7 @@
 import React from "react";
 
 function Header(props) {
-    return (
-        <div>
-            <img className="headr-pic" src={props.src} alt={props.alt} />
-        </div>
-    );
+    return (<img className="headr-pic" src={props.src} alt={props.alt}/>);
 }
 
-
-export default Header; 
+export default Header;
