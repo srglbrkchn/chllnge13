@@ -1,8 +1,14 @@
 import React from "react";
+import Icon from "./Icon";
 
 function PayPlan() {
     return(<div className="pay-plan">
-        Annual Plan $59.99/year Change
+        <Icon />
+        <div className="price-plan">
+        <h4>Annual Plan</h4>
+        <p> $59.99/year </p>
+        </div>
+        <a>Change</a>
      </div>);
 }
 

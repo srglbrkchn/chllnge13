@@ -13,8 +13,25 @@ body {
     padding: 1rem 1rem 0;
 }
 
+a {
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+a:hover {
+    color: hsl(245, 75%,70%);
+    text-decoration: none;
+    cursor: pointer;
+}
+
 p {
     color: hsl(224, 23%, 55%);
+}
+
+h4 {
+    font-weight: 900;
 }
 
 .content {
@@ -52,12 +69,19 @@ p {
 .explanation {
     text-align: center;
     width: 70%;
-    margin: 0 auto 2rem;
+    line-height: 1.5;
+    margin: 0 auto 1rem;
 }
 
 .pay-plan {
-    width: 70%;
-    background-color: hsl(224, 23%, 55%);;
+    width: 80%;
+    background-color: hsl(225, 100%, 97%);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .colors {
