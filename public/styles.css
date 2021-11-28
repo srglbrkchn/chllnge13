@@ -13,6 +13,10 @@ body {
     padding: 1rem 1rem 0;
 }
 
+p {
+    color: hsl(224, 23%, 55%);
+}
+
 .content {
     margin: 5rem auto;
     width: 450px;
@@ -32,6 +36,28 @@ body {
 .bottom {
     background-color: hsl(225, 100%, 98%);
     border-radius: 0 0 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    font-size: 27px;
+    font-weight: 900;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+}
+
+.explanation {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto 2rem;
+}
+
+.pay-plan {
+    width: 70%;
+    background-color: hsl(224, 23%, 55%);;
 }
 
 .colors {
