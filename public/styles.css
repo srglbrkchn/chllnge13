@@ -23,15 +23,11 @@ a {
 a:hover {
     color: hsl(245, 75%,70%);
     text-decoration: none;
-    cursor: pointer;
 }
 
 p {
     color: hsl(224, 23%, 55%);
-}
-
-h4 {
-    font-weight: 900;
+    line-height: 1.5;
 }
 
 .content {
@@ -56,12 +52,13 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 3rem 0;
 }
 
 .heading {
     font-size: 27px;
     font-weight: 900;
-    padding: 2rem 1rem;
+    padding: 0 1rem 1rem;
     text-align: center;
     color: hsl(223, 47%, 23%);
 }
@@ -74,29 +71,60 @@ h4 {
 }
 
 .pay-plan {
-    width: 80%;
-    background-color: hsl(225, 100%, 97%);
-    border-radius: 10px;
+    background-color: hsl(225, 100%, 96%);
     padding: 1.5rem;
-    margin-bottom: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.colors {
-    /* - Very pale blue: */
-    color: hsl(225, 100%, 98%);
-
-    /* - Desaturated blue: */
-    color: hsl(224, 23%, 55%);
-
-    /* - Dark blue:  */
-    color: hsl(223, 47%, 23%);
-
-    /* - Pale blue: */
-    color: hsl(225, 100%, 94%);
-
-    /* - Bright blue:  */
-    color: hsl(245, 75%, 52%);
+.pay-plan, .blue-btn {
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 2rem;
 }
+
+
+.right-side {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 1.5rem;
+}
+
+h4 {
+    font-weight: 900;
+    margin-bottom: .5rem;
+}
+
+.blue-btn {
+    color: hsl(225, 100%, 98%);
+    background-color: rgb(56, 41, 224);
+    border: none;
+    padding: 1rem;
+    font-size: 14px;
+    font-weight: 700;
+    box-shadow: 0px 20px 22px 1px rgba(56, 41, 224, .2);
+}
+
+.blue-btn:hover {
+    background-color : hsl(245, 75%,70%);
+}
+
+.cancel {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+ .blue-btn:hover, a:hover {
+    cursor: pointer;
+}
+
+
