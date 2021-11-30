@@ -6,12 +6,12 @@ import Cancel from "../Cancel";
 
 function Bottom() {
     return (
-        <form action="post" className="bottom">
+        <div action="post" className="bottom">
             <Summary/>
             <PayPlan/>
             <BlueBtn text="Proceed to Payment" />
             <Cancel text="Cancel Order" />
-        </form>
+        </div>
     );
 }
 
