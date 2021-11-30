@@ -10,7 +10,6 @@ body {
     background-image: url("./images/pattern-background-desktop.svg");
     background-repeat: no-repeat;
     background-color: hsl(225, 100%, 94%);
-    padding: 1rem 1rem 0;
 }
 
 a {
@@ -84,7 +83,6 @@ p {
     margin-bottom: 2rem;
 }
 
-
 .right-side {
     display: flex;
     align-items: center;
@@ -125,6 +123,28 @@ h4 {
 
  .blue-btn:hover, a:hover {
     cursor: pointer;
+}
+
+@media (max-width:375px) {
+
+    body {
+        background-image: url("./images/pattern-background-mobile.svg");
+    }
+
+    .content, .headr-pic {
+        width: 325px;
+        min-width: 325px;
+    }
+
+    .heading {
+        font-size: 22px;
+    }
+
+    .explanation {
+        width: 80%;
+        font-size: 15px;
+    }
+
 }
 
 
